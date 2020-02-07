@@ -4,12 +4,10 @@ This is a fork of [LiveOSC](https://livecontrol.q3f.org/ableton-liveapi/liveosc/
 
 ## Installation
 
-In a macOS terminal session:
-
-```
-cd /Applications/Ableton*.app/Contents/App-Resources/MIDI\ Remote\ Scripts
-git clone https://github.com/ideoforms/LiveOSC.git
-```
+ - Download this repository using the 'Clone or Download' button and save it as a ZIP file
+ - Unzip the file
+ - Rename the folder LiveOSC
+ - Move the entire folder to (get location)
 
 Then in Ableton Live:
 
@@ -22,8 +20,3 @@ The LiveOSC server will then start listening for commands.
 ## Usage
 
 See [OSCAPI](OSCAPI.txt) for the raw API.
-
-To receive logging messages, run the logging server with:
-```
-python2 ./LogServer.py
-```
